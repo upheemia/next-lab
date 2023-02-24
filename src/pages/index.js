@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
@@ -14,7 +13,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <h1>Дерябина А. О. 19ВВП-1</h1>
+          <h1>Дерябина А. О., Ильин С.Р., Горбунов Д.*. 19ВВП1</h1>
         </div>
 
         <div className={styles.center}>
