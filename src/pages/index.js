@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <h1>Дерябина А. О. 19ВВП-1</h1>
+          <h1>Дерябина А., Ильин С., Горбунов Д. 19ВВП1</h1>
         </div>
 
         <div className={styles.linkContainer}>
