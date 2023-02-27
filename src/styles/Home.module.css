@@ -34,6 +34,13 @@
   border-radius: var(--border-radius);
 }
 
+.linkContainer {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+}
+
 .code {
   font-weight: 700;
   font-family: var(--font-mono);

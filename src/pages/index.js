@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -15,6 +16,10 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <h1>Дерябина А. О. 19ВВП-1</h1>
+        </div>
+
+        <div className={styles.linkContainer}>
+          <Link href="/search/search">Найти животных</Link>
         </div>
 
         <div className={styles.center}>
